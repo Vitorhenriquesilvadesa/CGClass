@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="First Commit.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/GraphicContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Window.java" afterDir="false" />
+    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Wrapping OpenGL functions in GraphicContext and Window classes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/RecompileShaderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/EventAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/exception/EmptyEventQueueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/QueueDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/Reactive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/ReactiveEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Main.java" afterDir="false" />
     </list>
@@ -55,6 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vitor/Github/Java/GEAR-Framework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,7 +98,8 @@
       <updated>1728661797426</updated>
       <workItem from="1728661798577" duration="30000" />
       <workItem from="1728665485896" duration="4948000" />
-      <workItem from="1728671947502" duration="914000" />
+      <workItem from="1728671947502" duration="1426000" />
+      <workItem from="1728772378557" duration="2797000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <option name="closed" value="true" />
@@ -102,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728670883114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wrapping OpenGL functions in GraphicContext and Window classes.">
+      <option name="closed" value="true" />
+      <created>1728672949037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728672949037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit." />
+    <MESSAGE value="Wrapping OpenGL functions in GraphicContext and Window classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapping OpenGL functions in GraphicContext and Window classes." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
