@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Wrapping OpenGL functions in GraphicContext and Window classes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/RecompileShaderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/application/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/EventAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/exception/EmptyEventQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/QueueDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/Reactive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/event/reactive/ReactiveEvent.java" afterDir="false" />
+    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Creating application architecture.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CGCLass.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/vitor/Github/Java/GEAR-Framework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/vitor/IdeaProjects/CGClass/src/main/java/org/cgclass/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CGCLass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vitor/Github/Java/GEAR-Framework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/vitor/IdeaProjects/CGClass/src/main/java/org/cgclass/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CGCLass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.cgclass.Main" />
@@ -99,7 +90,8 @@
       <workItem from="1728661798577" duration="30000" />
       <workItem from="1728665485896" duration="4948000" />
       <workItem from="1728671947502" duration="1426000" />
-      <workItem from="1728772378557" duration="2797000" />
+      <workItem from="1728772378557" duration="3079000" />
+      <workItem from="1728821753540" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <option name="closed" value="true" />
@@ -117,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728672949037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating application architecture.">
+      <option name="closed" value="true" />
+      <created>1728777246465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728777246465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit." />
     <MESSAGE value="Wrapping OpenGL functions in GraphicContext and Window classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapping OpenGL functions in GraphicContext and Window classes." />
+    <MESSAGE value="Creating application architecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating application architecture." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
