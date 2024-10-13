@@ -1,4 +1,4 @@
-package org.cgclass;
+package org.cgclass.context;
 
 public class GraphicContext {
 

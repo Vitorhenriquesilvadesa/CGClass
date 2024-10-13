@@ -1,5 +1,8 @@
-package org.cgclass;
+package org.cgclass.context;
 
+import org.cgclass.event.OnWindowResizeEvent;
+import org.gear.framework.application.Application;
+import org.gear.framework.core.service.input.Input;
 import org.joml.Vector4f;
 
 import static org.lwjgl.glfw.GLFW.*;
@@ -32,6 +35,7 @@ public class Window {
         }
 
         nativeWindow = glfwCreateWindow(width, height, title, 0, 0);
+        Input.init(nativeWindow);
 
         if (nativeWindow == 0) {
             throw new IllegalStateException("Unable to create the GLFW window");
@@ -47,6 +51,7 @@ public class Window {
         this.width = width;
         this.height = height;
         glViewport(0, 0, width, height);
+        Application.dispatchEvent(new OnWindowResizeEvent(width, height));
     }
 
     private void setupGLFWCallbacks() {
