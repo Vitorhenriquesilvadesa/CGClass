@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Creating application architecture.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/event/OnWindowResizeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/shader/Shader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/shader/ShaderCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/shader/ShaderProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gear/framework/core/service/input/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shader.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shader.vert" afterDir="false" />
+    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Creating shader compilation pipeline.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/GraphicContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/context/GraphicContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/context/Platform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/RecompileShaderEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/event/RecompileShaderEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/context/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CGCLass.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/vitor/IdeaProjects/CGClass/src/main/java/org/gear/framework/core/service",
-    "last_opened_file_path": "/home/vitor/Github/Java/GEAR-Framework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/vitor/IdeaProjects/CGClass/src/main/java/org/cgclass/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CGCLass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/vitor/IdeaProjects/CGClass/src/main/java/org/gear/framework/core/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vitor/Github/Java/GEAR-Framework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/vitor/IdeaProjects/CGClass/src/main/java/org/cgclass/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.cgclass.event" />
@@ -114,7 +100,9 @@
       <workItem from="1728671947502" duration="1426000" />
       <workItem from="1728772378557" duration="3079000" />
       <workItem from="1728821753540" duration="1217000" />
-      <workItem from="1728830327316" duration="7762000" />
+      <workItem from="1728830327316" duration="8022000" />
+      <workItem from="1728859183258" duration="67000" />
+      <workItem from="1728937388274" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <option name="closed" value="true" />
@@ -148,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728825006922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating shader compilation pipeline.">
+      <option name="closed" value="true" />
+      <created>1728844313827</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728844313827</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +154,8 @@
     <MESSAGE value="First Commit." />
     <MESSAGE value="Wrapping OpenGL functions in GraphicContext and Window classes." />
     <MESSAGE value="Creating application architecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating application architecture." />
+    <MESSAGE value="Creating shader compilation pipeline." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating shader compilation pipeline." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
