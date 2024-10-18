@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Creating shader compilation pipeline.">
+    <list default="true" id="38585b9d-a00e-4bec-b01d-1a5fdaa2f5e8" name="Changes" comment="Back to code without shader wrapper.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgclass/Game.java" afterDir="false" />
     </list>
@@ -102,7 +102,7 @@
       <workItem from="1728821753540" duration="1217000" />
       <workItem from="1728830327316" duration="8022000" />
       <workItem from="1728859183258" duration="67000" />
-      <workItem from="1728937388274" duration="362000" />
+      <workItem from="1728937388274" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <option name="closed" value="true" />
@@ -144,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728844313827</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Back to code without shader wrapper.">
+      <option name="closed" value="true" />
+      <created>1728937971875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728937971875</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Back to code without shader wrapper.">
+      <option name="closed" value="true" />
+      <created>1728938085468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728938085468</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +171,8 @@
     <MESSAGE value="Wrapping OpenGL functions in GraphicContext and Window classes." />
     <MESSAGE value="Creating application architecture." />
     <MESSAGE value="Creating shader compilation pipeline." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating shader compilation pipeline." />
+    <MESSAGE value="Back to code without shader wrapper." />
+    <option name="LAST_COMMIT_MESSAGE" value="Back to code without shader wrapper." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

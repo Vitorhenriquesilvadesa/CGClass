@@ -10,15 +10,13 @@ import org.cgclass.shader.ShaderProgram;
 import org.gear.framework.application.Application;
 import org.gear.framework.core.service.event.reactive.Reactive;
 import org.gear.framework.core.service.input.Input;
-import org.joml.Matrix4f;
-import org.joml.Vector3f;
 
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL45.*;
 
 public class Game extends Application {
 
-    final float squareSize = 200f;
+    final float squareSize = 0.5f;
 
     boolean isSpacePressed = false;
 
@@ -26,9 +24,6 @@ public class Game extends Application {
             -squareSize, -squareSize, 0.0f,
             squareSize, -squareSize, 0.0f,
             squareSize, squareSize, 0.0f,
-            -squareSize, -squareSize, 0.0f,
-            squareSize, squareSize, 0.0f,
-            -squareSize, squareSize, 0.0f,
     };
 
     GraphicContext context = new GraphicContext(800, 800, "Hello OpenGL", Platform.Linux);
@@ -74,7 +69,7 @@ public class Game extends Application {
         // Desenhamos na tela usando os dados deste VAO, dizemos para usar TRIÂNGULOS como primitiva
         // gráfica, dizemos para começar na posição da nossa lista de dados, e dizemos para desenhar
         // usando 6 dados de cada linha da tabela.
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
         // Desvinculamos o VAO.
         glBindVertexArray(0);
